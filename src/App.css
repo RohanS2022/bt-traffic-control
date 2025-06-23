@@ -36,3 +36,42 @@
     transform: rotate(360deg);
   }
 }
+
+.logo-vertical {
+  height: 30px;
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: darkblue;
+}
+
+.main-test {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+
+.test {
+  position: absolute;
+  height: 100vh;
+  width: 40px;
+  z-index: 10000;
+  background-color: red;
+}
+
+.leaflet-container {
+  height: 100%;
+  width: 100%;
+}
+
+.my-container {
+  position: absolute;
+  left: 5%;
+  height: 100vh;
+  width: 95vw;
+}
+
+.ant-layout-sider {
+  height: 100vh;
+}
